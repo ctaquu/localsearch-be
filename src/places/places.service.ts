@@ -96,8 +96,10 @@ export class PlacesService {
    * @param {string} searchString
    */
   async search(searchString: string): Promise<Array<Place>> {
+    if (!searchString) return []
     return (await this.getPlaces()).filter(
-      (place: Place) => place.name.indexOf(searchString) !== -1,
+      (place: Place) =>
+        place.name.toLowerCase().indexOf(searchString.toLowerCase()) !== -1,
     )
   }
 

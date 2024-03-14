@@ -28,8 +28,8 @@ export class PlacesController {
       id: place.id,
       name: place.name,
       address: place.address,
-      website: place.website,
-      phoneNumber: place.phoneNumber,
+      websites: place.website,
+      phoneNumbers: place.phoneNumber,
       openingHours: place.openingHours,
     }
   }

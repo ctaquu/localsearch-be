@@ -4,7 +4,7 @@ export class OnePlaceDto {
   id: string
   name: string
   address: string
-  website: string[]
-  phoneNumber: string[]
+  websites: string[]
+  phoneNumbers: string[]
   openingHours: OpeningHours
 }
