@@ -2,6 +2,7 @@
 
 Damjan's take on Localsearch test assignment.
 Framework used: NestJS
+##### Node version: 16
 
 ## Installation
 
